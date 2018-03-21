@@ -1,0 +1,11 @@
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\bin\Debug\netcoreapp2.0\Practica3.deps.json
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\bin\Debug\netcoreapp2.0\Practica3.runtimeconfig.json
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\bin\Debug\netcoreapp2.0\Practica3.runtimeconfig.dev.json
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\bin\Debug\netcoreapp2.0\Practica3.dll
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\bin\Debug\netcoreapp2.0\Practica3.pdb
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\obj\Debug\netcoreapp2.0\Practica3.csprojResolveAssemblyReference.cache
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\obj\Debug\netcoreapp2.0\Practica3.csproj.CoreCompileInputs.cache
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\obj\Debug\netcoreapp2.0\Practica3.AssemblyInfoInputs.cache
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\obj\Debug\netcoreapp2.0\Practica3.AssemblyInfo.cs
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\obj\Debug\netcoreapp2.0\Practica3.dll
+C:\Users\ivans\Documents\Algoritmos Geneticos\Practica3\Practica3\obj\Debug\netcoreapp2.0\Practica3.pdb
