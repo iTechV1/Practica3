@@ -7,18 +7,31 @@ namespace Practica3
     class Gene
     {
         private int[] gene;
-        //Constructor de GeneParticion, recibe el tamaño del gene
+
+        //Constructor que recibe la longitud del gene, e inicializa de manera aleatoria
         public Gene(int size)
         {
             gene = new int[size];
             Random random = new Random();
-            //se crea llena el gene de tamaño size con numeros aleatorios de 1´s y 0´s
             for (int x = 0; x < size; x++)
             {
                 gene[x] = random.Next(2);
             }
         }
-        //Representacion en codigo binario del Gene
+
+        //Constructor que recibe un gen en binario, ya está inicializado
+        public Gene(string genBinario)
+        {
+            gene = new int[genBinario.Length];
+            char[] bits = genBinario.ToCharArray();
+            for (int i = 0; i < genBinario.Length; i++)
+            {
+                if (bits[i] == '1') gene[i] = 1;
+                else gene[i] = 0;
+            }
+        }
+
+        //Representacion en codigo Binario del gene
         public string GetBinario()
         {
             string s = "";
@@ -28,7 +41,8 @@ namespace Practica3
             }
             return s;
         }
-        //Representacion en codigo gray del Gene
+
+        //Representacion en codigo Gray del gene
         public string GetGrey()
         {
             string s = "";
@@ -37,6 +51,29 @@ namespace Practica3
                 s += gene[i - 1] ^ gene[i];
             }
             return gene[0] + s;
+        }
+
+        //Representacion en decimal del gene
+        public int GetDecimal()
+        {
+            int valor = 0;
+            for (int x = 0; x < gene.Length; x++)
+            {
+                valor += gene[x] * (int)Math.Pow(2, gene.Length - x - 1);
+            }
+            return valor;
+        }
+
+        //Regresa el arreglo de enteros del gene
+        public int[] get()
+        {
+            return gene;
+        }
+
+        //Cambia el arreglo de enteros del gene
+        public void set(int[] gene)
+        {
+            this.gene = gene;
         }
     }
 }
